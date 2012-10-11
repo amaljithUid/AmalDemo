@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Akil Baity Website</title>
+
+<!--  Layout Style Starts Here  -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+<!--  Layout Style Stop Here  -->
+
+<!--  Slider Styles/Js Starts Here  -->
+<link rel="stylesheet" href="css/bx_styles.css" type="text/css" /> 
+<link href="css/container.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery.latest.js" type="text/javascript"></script>
+<script src="js/jquery.bxSlider.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  
+			
+		$('#slider2').bxSlider({
+				controls: false,
+				mode: 'vertical',
+			    pause:5000,
+				auto: true,
+				displaySlideQty: 5,
+			
+			});	
+		
+		//Include script start here	
+		$('#Header').load('header.html')
+		$('#footer').load('footer.html')	
+	});
+	
+$(function(){
+  var slider = $('#slider1').bxSlider({
+    controls: false
+  });
+
+  $('#go-prev').click(function(){
+    slider.goToPreviousSlide();
+    return false;
+  });
+
+  $('#go-next').click(function(){
+    slider.goToNextSlide();
+    return false;
+  });
+}); 
+</script>
+<!--  Slider Styles/Js Stop Here  -->
+
+ <script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("select").uniform();
+      });
+    </script>
+    <link rel="stylesheet" href="css/uniform.default.css" type="text/css" media="screen">
+    <style type="text/css" media="screen">
+      ul.uniform-select-box li{list-style:none;font-family:Arial, Helvetica, sans-serif; color:#373535; font-size:14px;}
+    </style> 
+
+</head>
+
+<body id="innerBody">
+<div id="Mainwrapper">
+
+<div id="wrapper"><!--  Wrapper Starts Here  -->
+
+
+    <div id="Header"><!--  Header Starts Here  -->
+       
+    </div> <!--  Header Stop Here  -->   
+    
+    
+<div id="mainContent"><!--  Main Content Starts Here  -->
+        	<div id="topLeft"></div>
+            <div id="topBg"><!--  Top Bg Starts Here  -->
+           		
+            </div><!--  Top Bg Stop Here  -->
+            <div id="topRight"></div>
+            
+            
+            <div id="leftContentArea"><!--  Left Content Area Start Here  -->
+           		
+                
+                
+            </div><!--  Left Content Area Stop Here  -->
+            
+            <div id="rightContentArea"><!--  Right Content Area Start Here  -->
+            	
+                
+            </div><!-- Right Content Area Stop Here  -->
+            
+            
+            
+            
+           
+        </div>    
+</div></div><!--  Wrapper Stop Here  -->
+<div id="footer">
+	
+</div>
+
+</body>
+</html>

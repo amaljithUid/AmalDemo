@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Akil Baity Website</title>
+
+<!--  Layout Style Starts Here  -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+<style type="text/css">
+@import "css/jquery.datepick.css";
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.datepick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#popupDatepicker').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+	
+		
+		//Include script start here	
+		$('#Header').load('header.html')
+		$('#footer').load('footer.html')	
+		
+		
+});
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker1').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker2').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker3').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker4').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker5').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+</script>
+
+<script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("select").uniform();
+		$("#sele").uniform();
+      });	
+		
+    </script>
+    <link rel="stylesheet" href="css/uniform.default1.css" type="text/css" media="screen">
+    <style type="text/css" media="screen">
+      ul.uniform-select-box li{list-style:none;font-family:Arial, Helvetica, sans-serif; color:#373535; font-size:14px;}
+    </style> 
+
+
+</head>
+
+<body id="innerBody">
+	<div id="wrapper"><!--  Wrapper Starts Here  -->
+    
+		<div id="Header"><!--  Header Starts Here  --></div> <!--  Header Stop Here  -->   
+		
+        
+        <div id="mainContent"><!--  Main Content Starts Here  -->
+        	<div id="topLeft"></div>
+            <div id="topBg"><!--  Top Bg Starts Here  -->
+           		
+            </div><!--  Top Bg Stop Here  -->
+            <div id="topRight"></div>
+            
+            
+            <div id="leftContentArea"><!--  Left Content Area Start Here  -->
+           		
+                <h3 class="subtitle">Account Information</h3>
+                
+                <div class="form-1-name padin">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="38%">
+                            <div class="edit-acc1">
+                                <div class="lft-address">Location</div>
+                                <div class="right-address">
+                                <select name="select2" id="address-3" >
+                                <option selected="selected">Area</option>
+                                </select>
+                            </div>
+                            </div>
+                        </td>
+                        <td width="19%" valign="top">&nbsp;</td>
+                        <td width="38%">
+                        <div class="edit-acc1">
+                                <div class="lft-address">Location</div>
+                                <div class="right-address">
+                                <select name="select2" id="address-3" >
+                                <option selected="selected">Area</option>
+                                </select>
+                            </div>
+                            </div>
+                        </td>
+                        <td width="5%">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td width="38%"><input name="" type="text" class="txt-filed" value="Block" /></td>
+                        <td width="19%" valign="top"><strong>*</strong></td>
+                        <td width="38%"><input name="input" type="text" class="txt-filed" value="Avenue (Jadda) " /></td>
+                        <td width="5%" valign="top"><strong>*</strong></td>
+                      </tr>
+                      
+                      <tr>
+                        <td width="38%"><input name="" type="text" class="txt-filed" value="Street" /></td>
+                        <td width="19%" valign="top"></td>
+                        <td width="38%"><input name="input" type="text" class="txt-filed" value="Building/house/office no." /></td>
+                        <td width="5%" valign="top"></td>
+                      </tr>
+                      
+                      <tr>
+                        <td width="38%"><input name="" type="text" class="txt-filed" value="Floor" /></td>
+                        <td width="19%" valign="top"></td>
+                        <td width="38%"></td>
+                        <td width="5%" valign="top"></td>
+                      </tr>
+                      
+                    </table>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="95%"><textarea cols="" rows="" class="txt-area">Extra direction </textarea>&nbsp;</td>
+    <td width="5%" valign="top" ></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="62%"><a href="#"><img src="images/add-address.png" width="209" height="30" /></a></td>
+    <td width="33%"></td>
+    <td width="5%">&nbsp;</td>
+  </tr>
+</table>
+
+
+                    </div>
+                
+                <h3 class="subtitle-second">Change Password</h3>
+                
+                <div class="form-container full-width">
+                
+                    <div class="form-filed-content no-bg  clear">
+                        <h5>Old Password</h5>
+                        <input type="password" />
+                    </div>
+                    
+                    <div class="form-filed-content no-bg  clear">
+                        <h5>New Password</h5>
+                        <input type="password" />
+                    </div>
+                    
+                    <div class="form-filed-content no-bg  clear">
+                        <h5>Change Password</h5>
+                        <input type="password" />
+                    </div>
+                                    
+                </div>
+                
+                <div class="clear"></div>
+                <div class="yellow-bottom_border"></div>
+                <div class="clear"></div>
+                
+                
+                <h3 class="subtitle no-marg">Personal Information</h3>
+                
+                <div class="form-container full-width">
+                	
+                    <div class="form-field-gender">
+                    	<span class="gender-text">Gender</span><input type="radio" /><span class="selector-text">Male</span><input type="radio" /><span class="selector-text">Female</span>
+                    </div>
+                    
+                    <div class="form-filed-content no-bg  ">
+                        <h5>Birthday</h5>
+                        <input type="text" id="popupDatepicker" class="calender-bday" />
+                    </div>
+                    
+                    <div class="form-filed-content no-bg  flt-rgt">
+                        <h5 class="occ">Occupation</h5>
+                        <span class="flt-rgt">
+                        <select>
+                          <option>Web Designer</option>
+                          <option>IT Professional</option>
+                          <option>Govt Employee</option>
+                          <option>Accountant</option>
+                		</select>
+                        </span>
+                    </div>
+                                                        
+                </div>
+                
+                <div class="clear"></div>
+                <div class="yellow-bottom_border"></div>
+                <div class="clear"></div>
+                
+                <div class="checkout no-marg">
+                <div class="checkout-hedd">
+                	<h1>Delivery Address</h1>
+                </div>
+                
+                
+             
+             <div class="address_box_Account clearfix marg-bottom full-width">
+                  
+             </div>
+             
+             <a href="#" class="update-btn"><img src="images/reg-now-btn.png" width="209" height="30" /></a>
+             
+             </div>
+                
+                
+            </div><!--  Left Content Area Stop Here  -->
+            
+            <div id="rightContentArea"><!--  Right Content Area Start Here  -->
+           
+                <div class="adImages">
+                <img src="images/ad1.jpg" width="272" height="138" alt=""  />
+                <img src="images/ad2.jpg" height="138" width="272" alt="" style="margin-top:40px;" />
+                <img src="images/ad3.jpg" height="138" width="272" alt="" style="margin-top:40px;" />
+                </div>
+                
+            </div><!-- Right Content Area Stop Here  -->
+                  
+           </div>
+           
+       
+        </div><!--  Main Content Stop Here  -->
+        
+    
+</div><!--  Wrapper Stop Here  -->
+
+                  <div class="clear"></div>
+
+<div id="footer"><!--  Footer Start Here  --></div><!--  Footer Stop Here  -->
+</body>
+</html>

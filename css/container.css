@@ -1,0 +1,50 @@
+#container {
+	width: 1003px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-image: url(home.png);
+	background-repeat: no-repeat;
+	height: 1773px;
+}
+#banner_container {
+	width: 655px;
+	position: relative;
+	float:left;
+	margin-top:15px;
+}
+#banner_container #slider1 {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	height: 375px;
+	width: 655px;
+}
+#banner_container #slider1 li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#banner_container #banner_content {
+	position: absolute;
+	left: 0px;
+	top: 199px;
+	z-index: 9999;
+}
+#news {
+	position: absolute;
+	left: 43px;
+	top: 1129px;
+	width:200px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#615e59;
+	font-size:14px;
+	line-height:22px;
+}
+#news #slider2 {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}

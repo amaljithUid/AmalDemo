@@ -1,0 +1,125 @@
+/* @override http://localhost/bxslider_v3_plugin/css/styles.css */
+
+/*
+ * To change the color scheme of slider change each 
+ * background property for each of the five styles below
+ */
+
+/*next button*/
+.bx-next {
+	position:absolute;
+	top:364px;
+	right:298px;
+	z-index:999;
+	width: 49px;
+	height: 49px;
+	text-indent: -999999px;
+	background:url(../images/next.png) no-repeat 0 0;
+	cursor:pointer;
+}.bx-next:hover {
+	position:absolute;
+	top:364px;
+	right:298px;
+	z-index:999;
+	width: 49px;
+	height: 49px;
+	text-indent: -999999px;
+	background:url(../images/next_hover.png) no-repeat 0 0;
+}
+
+/*previous button*/
+.bx-prev {
+	position:absolute;
+	top:370px;
+	left:1px;
+	z-index:999;
+	width: 49px;
+	height: 49px;
+	text-indent: -999999px;
+	background:url(../images/pre.png) no-repeat 0 -7px;
+	cursor:pointer;
+}.bx-prev:hover{
+	position:absolute;
+	top:370px;
+	left:1px;
+	z-index:999;
+	width: 49px;
+	height: 49px;
+	text-indent: -999999px;
+	background:url(../images/pre_hover.png) no-repeat 0 -7px;
+}
+
+/*pager links*/
+.bx-pager a {
+	margin-right: 0px;
+	color: #f8aa00;
+	padding: 3px 1px 1px 6px;
+	font-size: 1px;
+	width:14px;
+	height:14px;
+	display:block;
+	float:left;
+	zoom:1;
+	background: url(gray_pager.png) no-repeat 0 -20px;
+}
+
+/*auto start button*/
+.bx-auto .start {
+	background: url(gray_auto.png) no-repeat 0 2px;
+	padding-left: 13px;
+}
+
+/*auto stop button*/
+.bx-auto .stop {
+	background: url(gray_auto.png) no-repeat 0 -14px;
+	padding-left: 13px;
+}
+
+/*
+ * End color scheme styles
+ */
+
+
+/*next/prev button hover state*/
+
+
+/*pager links hover and active states*/
+.bx-pager .pager-active,
+.bx-pager a:hover {
+	background-position: 0 0;
+}
+
+/*pager wrapper*/
+.bx-pager {
+	text-align:center;
+	padding-top: 0px;
+	font-size:12px;
+	color:#666;
+	position:absolute;
+	left:16px;
+	top:390px;
+	z-index:999;
+	
+
+
+}
+
+/*captions*/
+.bx-captions {
+	text-align:center;
+	font-size: 12px;
+	padding: 7px 0;
+	color: #666;
+}
+
+/*auto controls*/
+.bx-auto {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.bx-auto a {
+	color: #666;
+	font-size: 12px;
+}
+

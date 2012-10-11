@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Akil Baity Website</title>
+
+<!--  Layout Style Starts Here  -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+<!--  Layout Style Stop Here  -->
+
+<!--  Slider Styles/Js Starts Here  -->
+<link rel="stylesheet" href="css/bx_styles.css" type="text/css" /> 
+<link href="css/container.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery.latest.js" type="text/javascript"></script>
+<script src="js/jquery.bxSlider.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  
+			
+		$('#slider2').bxSlider({
+				controls: false,
+				mode: 'vertical',
+			    pause:5000,
+				auto: true,
+				displaySlideQty: 5,
+			
+			});	
+		
+		//Include script start here	
+		$('#Header').load('header.html');
+		$('#footer').load('footer.html');	
+	});
+	
+	
+$(function(){
+  var slider = $('#slider1').bxSlider({
+    controls: false
+  });
+
+  $('#go-prev').click(function(){
+    slider.goToPreviousSlide();
+    return false;
+  });
+
+  $('#go-next').click(function(){
+    slider.goToNextSlide();
+    return false;
+  });
+  
+  $("#login").leanModal();
+  
+}); 
+</script>
+<!--  Slider Styles/Js Stop Here  -->
+
+ <script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("select").uniform();
+      });
+	  
+	  
+	  
+    </script>
+    <link rel="stylesheet" href="css/uniform.default.css" type="text/css" media="screen">
+    <style type="text/css" media="screen">
+      ul.uniform-select-box li{list-style:none;font-family:Arial, Helvetica, sans-serif; color:#373535; font-size:14px;}
+    </style> 
+    
+    
+
+</head>
+
+<body>
+
+
+<div id="LoginPopupContent">
+    <a id="LoginPopupClose"></a>
+    
+    <div class="Popup-container">
+    	<div class="ft-user">
+            <h2>First Time User?</h2>
+            <p><b>Join Us</b> then as you use our site, we'll store your preferences, addresses, and order history for a smoother experience and faster checkout.</p>
+            <a href="#"><img src="images/reg-now-btn.png" width="227" height="30"/></a>
+        </div>
+        <div class="f-Password">
+        	<h2 class="marg-bottom1">Member Login</h2>
+            <input type="text" value="Enter your Email Address" />
+            <input type="password" value="password" class="no-marg" />
+            <p class="flt-rgt marg-bottom2"><a href="" class="fgot-Pword-text">FORGOT PASSWORD</a></p>
+            
+            <a href="#"><img src="images/send-mail-btn.png" width="227" height="30"/></a>
+        </div>
+    </div>
+</div> 
+<div id="LoginPopupBg"></div>
+		
+
+<div id="Mainwrapper">
+	<div id="go-prev" class="bx-prev"></div>
+	<div id="go-next" class="bx-next"></div>
+<div id="wrapper"><!--  Wrapper Starts Here  -->
+
+
+    <div id="Header"><!--  Header Starts Here  -->
+       
+    </div> <!--  Header Stop Here  -->   
+    
+    
+    <div id="banner_container"><!--  Banner Starts Here  -->
+    <ul id="slider1">    
+    <li><img src="images/img1.png" width="655" height="375" /></li>
+    <li><img src="images/img2.png" width="655" height="375" /></li>
+    <li><img src="images/img3.png" width="655" height="375" /></li>
+    <li><img src="images/img4.png" width="655" height="375" /></li>
+    <li><img src="images/img5.png" width="655" height="375" /></li>
+    <li><img src="images/img6.png" width="655" height="375" /></li>
+    </ul>
+    <div id="banner_content"><img src="images/banner_content.png" width="347" height="177" /></div>
+    </div><!--  Banner Stop Here  -->
+
+		<div id="browseFood"><!--  Browse Food Starts Here  -->
+			
+          <div class="browseTop"></div>
+          <div class="browseBg">
+          	<div class="content">
+            	<h1>ARE YOU HUNGRY?</h1>
+                <h2>ORDER FOOD NOW</h2>
+                <div class="dottedLine"></div>
+                
+                <div class="selectArea">
+                	<span>
+                    <ul class="uniform-select-box">
+                	<li>
+                  		<select>
+                   	    <option>Select Location</option>
+                    	<option>Select Location</option>
+                    	<option>Select Location</option>
+                   		<option>Select Location</option>
+                  		</select>
+                	</li>
+                    </ul>
+                    </span>
+                    <ul class="uniform-select-box">
+                	<li>
+                  		<select>
+                   	    <option>Select Category</option>
+                    	<option>Select Category</option>
+                    	<option>Select Category</option>
+                   		<option>Select Category</option>
+                  		</select>
+                	</li>
+                    </ul>
+                    <span>
+                    <ul class="uniform-select-box">
+                	<li>
+                  		<select>
+                   	    <option>Delivery / Pick Up</option>
+                    	<option>Delivery / Pick Up</option>
+                    	<option>Delivery / Pick Up</option>
+                   		<option>Delivery / Pick Up</option>
+                  		</select>
+                	</li>
+                    </ul>
+                    </span>
+                    
+                    <span>
+                    <ul class="uniform-select-box">
+                	<li>
+                  		<select>
+                   	    <option>Select Kitchen</option>
+                    	<option>Select Kitchen</option>
+                    	<option>Select Kitchen</option>
+                   		<option>Select Kitchen</option>
+                  		</select>
+                	</li>
+                    </ul>                    
+                    </span>
+               
+                </div>
+                
+                <a href="#"><div class="find-food-button"></div></a>
+                
+            </div>
+          </div>
+          <div class="browseBottom"></div>  
+            
+		</div><!--  Browse Food Stop Here  -->
+        
+        <div id="mainContent"><!--  Main Content Starts Here  -->
+        	<h3>HOW IT WORKS?</h3>
+            <h4>Ordering is fast, easy and convenient.</h4>
+            <div class="clear"></div>
+            <div id="menuBanner">
+            	<div id="menuBannerImage"><img src="images/your_order_img.png" alt="place your order" title="Place Your Order" />
+                	<span id="menuBannerSmallHeading1">You Place</span><span id="menuBannerLargeHeading1">YOUR ORDER</span>
+                </div>                	
+                <div id="menuBannerImage"><img src="images/the_kitchen_img.png" alt="the kitchen" title="The Kitchen" />
+                	<span id="menuBannerSmallHeading2">We Send It To</span><span id="menuBannerLargeHeading2">THE KITCHEN</span>
+                </div>
+                <div id="menuBannerImage"><img src="images/pick_up_img.png" alt="you pick up" title="You Pick Up" />
+                	<span id="menuBannerLargeHeading3">Kitchen Deliver</span><span id="menuBannerSmallHeading3">or</span><span id="menuBannerLargeHeading3">YOU PICK UP</span>
+                </div>
+            </div>
+            <h5>Current Orders </h5>
+            <div class="clear"></div>
+            <div id="newsArea">
+            	<div id="news">
+                <ul id="slider2">
+                <li>An order from <span style="color:#ff0000;">Mais Kitchen </span> was  placed in Sharq at 04.28PM.</li>
+               	<br />
+                <li>An order from <span style="color:#ff0000;">Mais Kitchen </span> was  placed in Sharq at 04.28PM.</li>
+                <br />
+                <li>An order from <span style="color:#ff0000;">Mais Kitchen </span> was  placed in Sharq at 04.28PM.</li>
+              	<br />
+                <li>An order from <span style="color:#ff0000;">Mais Kitchen </span> was  placed in Sharq at 04.28PM.</li>
+                <br />
+                <li>An order from <span style="color:#ff0000;">Mais Kitchen </span> was  placed in Sharq at 04.28PM.</li>
+           		<br />
+                <li>An order from <span style="color:#ff0000;">Mais Kitchen </span> was  placed in Sharq at 04.28PM.</li>
+                
+                </ul>
+                </div>
+            </div>
+            
+            <div id="adArea"><img src="images/zain_ad.jpg" height="158" width="613" alt="zain ad" /></div>
+            <div id="adArea1"><img src="images/ad1.jpg" height="138" width="272" alt="" /></div>
+            <div id="adArea2"><img src="images/ad2.jpg" height="138" width="272" alt="" /></div>
+           
+        </div><!--  Main Content Stop Here  -->
+        
+    
+</div></div><!--  Wrapper Stop Here  -->
+<div id="footer">
+	
+</div>
+
+</body>
+</html>
