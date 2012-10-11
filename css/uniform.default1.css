@@ -25,7 +25,7 @@ div.button,
 div.button span {
   background-image:url(../images/inner_select_bg.png);
   background-repeat: no-repeat;
-  width:161px; height:30px;
+  /*width:161px;*/ height:30px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -114,12 +114,12 @@ div.selector.disabled span {
 
 /* Select */
 div.selector {
-  width: 161px;
+  /*width: 161px;*/
   font-size: 12px;
 }
 
 div.selector select {
-  min-width: 161px;
+  /*min-width: 161px;*/
   font-family:Arial, Helvetica, sans-serif;
   font-size: 12px;
  
@@ -212,3 +212,19 @@ div.selector select option {
 	width:73px;
 	background:url(../images/sele.gif) no-repeat;
 	}
+	
+#uniform-option2{
+	width:254px;
+	background:url(../images/home_select_bg.png) no-repeat;
+	}
+	
+#uniform-option2 span{
+	width:254px;
+	background:url(../images/occ-drop-bg.png) no-repeat;
+	margin:0px !important;
+	
+	} 
+	
+#uniform-option2{margin-left:0px}	
+
+select{width:100% !important;} 

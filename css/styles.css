@@ -1316,6 +1316,7 @@ html[xmlns] .clearfix					{display:block;}
 .full-width								{width:100% !important}
 .clear									{clear:both;}
 .no-bg									{background:none !important}
+.marg-left								{margin-left:11px !important;}
 
 #LoginPopupClose						{right:6px;top:4px;position:absolute;display:block;cursor:pointer;width:22px;height:22px;background:url(../images/pop-up-close.png) no-repeat center center}
 #LoginPopupback							{right:325px;top:13px;position:absolute;display:block;cursor:pointer;width:51px;height:12px;background:url(../images/back-bt.png) no-repeat center center}
@@ -1356,7 +1357,7 @@ h3.subtitle,h3.subtitle-second			{margin-bottom:18px;}
 .selector-text							{color:#6a6363;font-family:Arial, Helvetica, sans-serif;font-size:14px;}
 
 .calender-bday							{background:url(../images/calender-icon.png) no-repeat right center;background-color:transparent;border:0;padding:0;width:116px;height:28px;margin:0 0 0 6px;padding:5px 0 0 5px;}
-.form-filed-content select				{width:150px !important}
+.form-filed-content select				{width:150px}
 .form-filed-content h5.occ				{width:101px;}
 
 .address_box_Account					{width:698px; height:auto; float:left; border:1px solid #eceae2; background:#fbfbf9;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;margin-top:15px}
@@ -1379,6 +1380,22 @@ a.fgot-Pword-text						{font-family:Arial, Helvetica, sans-serif;font-size:12px 
 .Cancel-Order-content a					{display:block;}
 
 .txt-filed								{width:255px !important; height:30px !important; float:left; background:url(../images/text-field.png) no-repeat; border:none; 
-		font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px;}
+font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px;}
+.required{width:15px;height:10px;color:#F00;font-size:22px;font-weight:bold;padding:5px;display:inline-block;vertical-align:text-top}
+.form-filed-content .txt-filed{color:#000;}
+.subtitle3								{font-family:Arial, Helvetica, sans-serif;font-size:15px;color:#57524f;margin:0px;line-height:22px;display:block;float:inherit;margin-bottom:30px}
+
+.singleFieldBg							{width:255px !important; height:30px !important; float:left; background:url(../images/text-field.png) no-repeat; border:none; 
+font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px;}
+
+select.singleFieldBg					{width:100%;background:url(../images/home_select_bg.png) no-repeat !important}
+.bgpos									{background-position:213px center !important}
+.form-filed-textarea					{width:100%;}
+.form-filed-textarea textarea			{width:88.5%;min-height:200px;-webkit-border-radius: 8px;border-radius: 8px;border:thin solid #CCC;padding:10px}
+.captch{}
+.captch td p{color:#373535;font-size:14px}
+.captch-bg								{width:173px;background:url(../images/captach-inpud-bg.png) no-repeat left top;height:30px;border:none;margin-left:11px;}
+.captcha-warning{color:#878380;font-size:14px}
+.captcha-warning span{color:#FF0000;font-size:13px}
 
 /*********************************AMAL ENDS HERE**********************************/
