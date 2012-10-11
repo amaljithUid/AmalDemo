@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Akil Baity Website</title>
+
+<!--  Layout Style Starts Here  -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+<style type="text/css">
+@import "css/jquery.datepick.css";
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.datepick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#popupDatepicker').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+	
+		
+		//Include script start here	
+		$('#Header').load('header.html')
+		$('#footer').load('footer.html')	
+		
+		
+});
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker1').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker2').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker3').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker4').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker5').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+</script>
+
+<script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("select").uniform();
+		$("#sele").uniform();
+      });	
+		
+    </script>
+    <link rel="stylesheet" href="css/uniform.default1.css" type="text/css" media="screen">
+    <style type="text/css" media="screen">
+      ul.uniform-select-box li{list-style:none;font-family:Arial, Helvetica, sans-serif; color:#373535; font-size:14px;}
+    </style> 
+
+
+</head>
+
+<body id="innerBody">
+	<div id="wrapper"><!--  Wrapper Starts Here  -->
+    
+		<div id="Header"><!--  Header Starts Here  --></div> <!--  Header Stop Here  -->   
+		
+        
+        <div id="mainContent"><!--  Main Content Starts Here  -->
+        	<div id="topLeft"></div>
+            <div id="topBg"><!--  Top Bg Starts Here  -->
+           		<div class="content">
+                 <span><select >
+                      <option>Select Location</option>
+                	  <option>Select Location</option>
+                	  <option>Select Location</option>
+                	  <option>Select Location</option>
+                	  <option>Select Location</option>
+                </select></span>
+                 <span><select >
+                	  <option>Select Category</option>
+                      <option>Select Category</option>
+                      <option>Select Category</option>
+                      <option>Select Category</option>
+                      <option>Select Category</option>
+                </select></span>
+                 <span><select >
+              
+                	  <option>Delivery / Pick Up</option>
+                      <option>Delivery / Pick Up</option>
+                      <option>Delivery / Pick Up</option>
+                      <option>Delivery / Pick Up</option>
+                      <option>Delivery / Pick Up</option>
+                </select></span>
+                 <span><select>
+                
+                	  <option>Select Kitchen</option>
+                      <option>Select Kitchen</option>
+                      <option>Select Kitchen</option>
+                      <option>Select Kitchen</option>
+                      <option>Select Kitchen</option>
+                </select></span>
+                
+                <a href="#"><span id="search_button"></span></a>
+                
+                </div>
+            </div><!--  Top Bg Stop Here  -->
+            <div id="topRight"></div>
+            
+            
+            
+               <!--  Content area start here  -->
+           
+             
+                  <div id="leftContentArea"><!--  Left Content Area Start Here  -->
+
+                    
+                <div id="mainHeading">FOOD CATEGORIES</div>
+                <div id="subHeading">CAKES</div>
+                
+                
+                <div id="menuListTop"></div>
+                <div id="menuListBg"><!--  Menu List Bg Starts Here  -->
+               	  <div class="cakeList1"><!--  Cake List1 Starts Here  -->
+                    	<img src="images/cake_img1.jpg" height="187" width="172" alt="" />
+                        <div class="cakeListContent">
+                        	<div class="cakeListHeading">Black & White Signature
+                            	<span style="float:right; color:#585858;">Price : <span style="color:#e32c2c;">3.500 KD</span></span>
+                                <div><span style="float:right; margin-right:15px; margin-top:10px; color:#585858;">Orders Left : <span style="color:#e32c2c;">3</span></span></div>
+                            </div>
+                            <img src="images/cake_stars.png" height="18" width="104" alt=""  />
+                            <div class="cakeListText">Alternating layers of dark chocolate and white cake, filled with white mousse, frosted with fudge frosting and topped with decorative flowerettes, chocolate covered coffee beans and a white chocolate.</div>
+                            
+                            <div class="textFields">
+                            <span><input type="text" id="popupDatepicker" class="calender" /></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>Time</option>
+    </select></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>PM</option>
+    </select></span>
+                            
+                            </div>
+                            
+                            <div class="textFields"><span><input type="text" class="smallTextField" /><span class="txt">KG</span></span>
+                            <span><input type="text" class="smallTextField" /><span class="txt">PCS</span></span><span><input type="text" class="smallTextField" /><span class="txt">DZN</span></span>
+                            </div>
+                            <a href="#"><div class="addTrayButton"></div></a>
+                            
+                        </div>
+                    </div><!--  Cake List1 Stop Here  --><!--  Cake List2 Stop Here  --><!--  Cake List1 Stop Here  -->
+                    
+                    
+                    
+                </div><!--  Menu List Bg Stop Here  -->
+                
+                
+                
+                
+                <div id="menuListBg"><!--  Menu List Bg Starts Here  -->
+               	  <div class="cakeList1"><!--  Cake List1 Starts Here  -->
+                    	<img src="images/cake_img1.jpg" height="187" width="172" alt="" />
+                        <div class="cakeListContent">
+                        	<div class="cakeListHeading">Black & White Signature
+                            	<span style="float:right; color:#585858;">Price : <span style="color:#e32c2c;">3.500 KD</span></span>
+                                <div><span style="float:right; margin-right:15px; margin-top:10px; color:#585858;">Orders Left : <span style="color:#e32c2c;">3</span></span></div>
+                            </div>
+                            <img src="images/cake_stars.png" height="18" width="104" alt=""  />
+                            <div class="cakeListText">Alternating layers of dark chocolate and white cake, filled with white mousse, frosted with fudge frosting and topped with decorative flowerettes, chocolate covered coffee beans and a white chocolate.</div>
+                            
+                            <div class="textFields">
+                            <span><input type="text" id="popupDatepicker" class="calender" /></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>Time</option>
+    </select></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>PM</option>
+    </select></span>
+                            
+                            </div>
+                            
+                            <div class="textFields"><span><input type="text" class="smallTextField" /><span class="txt">KG</span></span>
+                            <span><input type="text" class="smallTextField" /><span class="txt">PCS</span></span><span><input type="text" class="smallTextField" /><span class="txt">DZN</span></span>
+                            </div>
+                            <a href="#"><div class="addTrayButton"></div></a>
+                            
+                        </div>
+                    </div><!--  Cake List1 Stop Here  --><!--  Cake List2 Stop Here  --><!--  Cake List1 Stop Here  -->
+                    
+                    
+                    
+                </div><!--  Menu List Bg Stop Here  -->
+                <div id="menuListBg"><!--  Menu List Bg Starts Here  -->
+               	  <div class="cakeList1"><!--  Cake List1 Starts Here  -->
+                    	<img src="images/cake_img1.jpg" height="187" width="172" alt="" />
+                        <div class="cakeListContent">
+                        	<div class="cakeListHeading">Black & White Signature
+                            	<span style="float:right; color:#585858;">Price : <span style="color:#e32c2c;">3.500 KD</span></span>
+                                <div><span style="float:right; margin-right:15px; margin-top:10px; color:#585858;">Orders Left : <span style="color:#e32c2c;">3</span></span></div>
+                            </div>
+                            <img src="images/cake_stars.png" height="18" width="104" alt=""  />
+                            <div class="cakeListText">Alternating layers of dark chocolate and white cake, filled with white mousse, frosted with fudge frosting and topped with decorative flowerettes, chocolate covered coffee beans and a white chocolate.</div>
+                            
+                            <div class="textFields">
+                            <span><input type="text" id="popupDatepicker" class="calender" /></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>Time</option>
+    </select></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>PM</option>
+    </select></span>
+                            
+                            </div>
+                            
+                            <div class="textFields"><span><input type="text" class="smallTextField" /><span class="txt">KG</span></span>
+                            <span><input type="text" class="smallTextField" /><span class="txt">PCS</span></span><span><input type="text" class="smallTextField" /><span class="txt">DZN</span></span>
+                            </div>
+                            <a href="#"><div class="addTrayButton"></div></a>
+                            
+                        </div>
+                    </div><!--  Cake List1 Stop Here  --><!--  Cake List2 Stop Here  --><!--  Cake List1 Stop Here  -->
+                    
+                    
+                    
+                </div><!--  Menu List Bg Stop Here  -->
+                
+                
+                
+                <div id="menuListBg"><!--  Menu List Bg Starts Here  -->
+               	  <div class="cakeList1"><!--  Cake List1 Starts Here  -->
+                    	<img src="images/cake_img1.jpg" height="187" width="172" alt="" />
+                        <div class="cakeListContent">
+                        	<div class="cakeListHeading">Black & White Signature
+                            	<span style="float:right; color:#585858;">Price : <span style="color:#e32c2c;">3.500 KD</span></span>
+                                <div><span style="float:right; margin-right:15px; margin-top:10px; color:#585858;">Orders Left : <span style="color:#e32c2c;">3</span></span></div>
+                            </div>
+                            <img src="images/cake_stars.png" height="18" width="104" alt=""  />
+                            <div class="cakeListText">Alternating layers of dark chocolate and white cake, filled with white mousse, frosted with fudge frosting and topped with decorative flowerettes, chocolate covered coffee beans and a white chocolate.</div>
+                            
+                            <div class="textFields">
+                            <span><input type="text" id="popupDatepicker" class="calender" /></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>Time</option>
+    </select></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>PM</option>
+    </select></span>
+                            
+                            </div>
+                            
+                            <div class="textFields"><span><input type="text" class="smallTextField" /><span class="txt">KG</span></span>
+                            <span><input type="text" class="smallTextField" /><span class="txt">PCS</span></span><span><input type="text" class="smallTextField" /><span class="txt">DZN</span></span>
+                            </div>
+                            <a href="#"><div class="addTrayButton"></div></a>
+                            
+                        </div>
+                    </div><!--  Cake List1 Stop Here  --><!--  Cake List2 Stop Here  --><!--  Cake List1 Stop Here  -->
+                    
+                    
+                    
+                </div><!--  Menu List Bg Stop Here  -->
+                
+                
+                
+                <div id="menuListBg"><!--  Menu List Bg Starts Here  -->
+               	  <div class="cakeList1"><!--  Cake List1 Starts Here  -->
+                    	<img src="images/cake_img1.jpg" height="187" width="172" alt="" />
+                        <div class="cakeListContent">
+                        	<div class="cakeListHeading">Black & White Signature
+                            	<span style="float:right; color:#585858;">Price : <span style="color:#e32c2c;">3.500 KD</span></span>
+                                <div><span style="float:right; margin-right:15px; margin-top:10px; color:#585858;">Orders Left : <span style="color:#e32c2c;">3</span></span></div>
+                            </div>
+                            <img src="images/cake_stars.png" height="18" width="104" alt=""  />
+                            <div class="cakeListText">Alternating layers of dark chocolate and white cake, filled with white mousse, frosted with fudge frosting and topped with decorative flowerettes, chocolate covered coffee beans and a white chocolate.</div>
+                            
+                            <div class="textFields">
+                            <span><input type="text" id="popupDatepicker" class="calender" /></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>Time</option>
+    </select></span>
+                            <span><select name="select" id="time"  class="select_1">
+    <option>PM</option>
+    </select></span>
+                            
+                            </div>
+                            
+                            <div class="textFields"><span><input type="text" class="smallTextField" /><span class="txt">KG</span></span>
+                            <span><input type="text" class="smallTextField" /><span class="txt">PCS</span></span><span><input type="text" class="smallTextField" /><span class="txt">DZN</span></span>
+                            </div>
+                            <a href="#"><div class="addTrayButton"></div></a>
+                            
+                        </div>
+                    </div><!--  Cake List1 Stop Here  --><!--  Cake List2 Stop Here  --><!--  Cake List1 Stop Here  -->
+                    
+                    
+                    
+                </div><!--  Menu List Bg Stop Here  -->
+                <div id="menuListBottom"></div>
+                
+                
+                
+          </div>
+            
+            
+            
+            
+            <div id="rightContentArea"><!--  Right Content Area Start Here  -->
+            	<div class="recipeTop"><span class="todaysHeading">TODAY'S</span><span class="recipeHeading"> RECIPE</span></div>
+                <div class="recipeBg">
+               		<img src="images/video_img.jpg" height="264" width="263" alt="" />
+                </div>
+                <div class="recipeBottom"></div>
+                
+                <div class="dotCurveTop"></div>
+                <div class="dotCurveBg">
+                	 <table width="97%" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td colspan="4" align="center" valign="middle" bgcolor="#f7f7f7" class="dotCurveHeading">MAIS KITCHEN ORDER</td>
+                        </tr>
+                         <tr>
+                           <td colspan="4" align="center" valign="middle" bgcolor="#f7f7f7" class="dotCurveTxt">&nbsp;</td>
+                         </tr>
+                         <tr>
+                        <td colspan="4" align="center" valign="middle" bgcolor="#f7f7f7" class="dotCurveTxt">Minimum Order Amount: <span style="color:#e32c2c; font-weight:bold;">1.50 KD</span></td>
+                        </tr>
+                         <tr>
+                        <td height="25" colspan="4" align="center" valign="middle" bgcolor="#f7f7f7" class="dotCurveTxt">Your Order Amount: <span style="color:#44413f; font-weight:bold;">10.00 KD</td>
+                        </tr>
+                         <tr>
+                           <td colspan="4" bgcolor="#f7f7f7">&nbsp;</td>
+                         </tr>
+                         <tr>
+                           <td width="15%" align="right" valign="middle" bgcolor="#f4f3f3"><span class="dotCurveTxt"><strong>QTY</strong></span></td>
+                           <td width="47%" height="30" align="center" valign="middle" bgcolor="#f4f3f3"><span class="dotCurveTxt"><strong>ITEM</strong></span></td>
+                           <td width="22%" align="center" valign="middle" bgcolor="#f4f3f3"><span class="dotCurveTxt"><strong>PRICE</strong></span></td>
+                           <td width="16%" bgcolor="#f4f3f3">&nbsp;</td>
+                         </tr>
+                         <tr>
+                           <td height="55" align="right" valign="middle" class="dotCurveTxt"><strong>1</strong></td>
+                           <td align="center" valign="middle" class="dotCurveTxt">Black &amp; White Signature Cake</td>
+                           <td align="center" valign="middle" class="dotCurveTxt">3.500 KD</td>
+                           <td align="center" valign="middle"><a href="#"><img src="images/delete.png" width="19" height="19" /></a></td>
+                         </tr>
+                         <tr>
+                           <td height="55" align="right" valign="middle" bgcolor="#f4f3f3" class="dotCurveTxt"><strong>1</strong></td>
+                           <td align="center" valign="middle" bgcolor="#f4f3f3" class="dotCurveTxt">Black &amp; White Signature Cake</td>
+                           <td align="center" valign="middle" bgcolor="#f4f3f3" class="dotCurveTxt">3.500 KD</td>
+                           <td align="center" valign="middle" bgcolor="#f4f3f3"><a href="#"><img src="images/delete.png" width="19" height="19" /></a></td>
+                         </tr>
+                         <tr>
+                           <td height="55" align="right" valign="middle" class="dotCurveTxt"><strong>1</strong></td>
+                           <td align="center" valign="middle" class="dotCurveTxt">Black &amp; White Signature Cake</td>
+                           <td align="center" valign="middle" class="dotCurveTxt">3.500 KD</td>
+                           <td align="center" valign="middle"><a href="#"><img src="images/delete.png" width="19" height="19" /></a></td>
+                         </tr>
+                         <tr>
+                           <td height="55" align="right" valign="middle" bgcolor="#f4f3f3" class="dotCurveTxt"><strong>1</strong></td>
+                           <td align="center" valign="middle" bgcolor="#f4f3f3" class="dotCurveTxt">Black &amp; White Signature Cake</td>
+                           <td align="center" valign="middle" bgcolor="#f4f3f3" class="dotCurveTxt">3.500 KD</td>
+                           <td align="center" valign="middle" bgcolor="#f4f3f3"><a href="#"><img src="images/delete.png" width="19" height="19" /></a></td>
+                         </tr>
+                  </table>
+                    
+                </div>
+                <div class="dotCurveBottom"></div>
+                
+                <div class="adImages">
+                <img src="images/ad1.jpg" width="272" height="138" alt=""  />
+                <img src="images/ad2.jpg" height="138" width="272" alt="" style="margin-top:40px;" />
+                <img src="images/ad3.jpg" height="138" width="272" alt="" style="margin-top:40px;" />
+                </div>
+                
+            </div>
+                  
+                  
+                  
+                  
+      </div>
+           
+       
+        </div><!--  Main Content Stop Here  -->
+        
+    
+</div><!--  Wrapper Stop Here  -->
+
+                  <div class="clear"></div>
+
+<div id="footer"><!--  Footer Start Here  --></div><!--  Footer Stop Here  -->
+</body>
+</html>

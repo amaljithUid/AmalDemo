@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Akil Baity Website</title>
+
+<!--  Layout Style Starts Here  -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+<style type="text/css">
+@import "css/jquery.datepick.css";
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.datepick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#popupDatepicker').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+	
+		
+		//Include script start here	
+		$('#Header').load('header.html')
+		$('#footer').load('footer.html')	
+		
+		
+});
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker1').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker2').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker3').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker4').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker5').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+</script>
+
+<script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+		$("#address").uniform();
+		$("#address-1").uniform();
+      });	
+		
+    </script>
+    <link rel="stylesheet" href="css/uniform.default1.css" type="text/css" media="screen">
+    <style type="text/css" media="screen">
+      ul.uniform-select-box li{list-style:none;font-family:Arial, Helvetica, sans-serif; color:#373535; font-size:14px;}
+    </style> 
+
+
+</head>
+
+<body id="innerBody">
+	<div id="wrapper"><!--  Wrapper Starts Here  -->
+    
+		<div id="Header"><!--  Header Starts Here  --></div> <!--  Header Stop Here  -->   
+		
+        
+        <div id="mainContent"><!--  Main Content Starts Here  -->
+        	<div id="topLeft"></div>
+            <div id="topBg"><!--  Top Bg Starts Here  -->
+           		<div class="subheadd">My Account</div>
+            </div><!--  Top Bg Stop Here  -->
+            <div id="topRight"></div>
+            
+            
+            
+               <!--  Content area start here  -->
+           <div class="checkout">
+           
+           		<div class="side-panel-menu">
+                	<h3>In this Section</h3>
+                    <ul>
+                    	<li><a href="#">Account Information</a></li>
+                        <li><a href="#">My orders</a></li>
+                    </ul>
+                </div>
+                
+           
+       		 <div class="right-box">
+           	   <h1>Account Information</h1>
+           	   <h2>Add New Address</h2>
+               
+                    
+                    <div class="form-1-name padin">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="38%"><select name="select" id="address" >
+    <option>Location</option>
+    </select></td>
+    <td width="19%" valign="top"><strong>*</strong></td>
+    <td width="38%"><select name="select2" id="address-1" >
+      <option selected="selected">Area</option>
+    </select></td>
+    <td width="5%"><strong>*</strong></td>
+  </tr>
+  <tr>
+    <td width="38%"><input name="" type="text" class="txt-filed" value="Block" /></td>
+    <td width="19%" valign="top"><strong>*</strong></td>
+    <td width="38%"><input name="input" type="text" class="txt-filed" value="Avenue (Jadda) " /></td>
+    <td width="5%" valign="top"><strong>*</strong></td>
+  </tr>
+  
+  <tr>
+    <td width="38%"><input name="" type="text" class="txt-filed" value="Street" /></td>
+    <td width="19%" valign="top"></td>
+    <td width="38%"><input name="input" type="text" class="txt-filed" value="Building/house/office no." /></td>
+    <td width="5%" valign="top"></td>
+  </tr>
+  
+  <tr>
+    <td width="38%"><input name="" type="text" class="txt-filed" value="Floor" /></td>
+    <td width="19%" valign="top"></td>
+    <td width="38%"></td>
+    <td width="5%" valign="top"></td>
+  </tr>
+  
+</table>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="95%"><textarea cols="" rows="" class="txt-area">Extra direction </textarea>&nbsp;</td>
+    <td width="5%" valign="top" ></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="62%"><a href="#"><img src="images/add-address.png" width="209" height="30" /></a></td>
+    <td width="33%"></td>
+    <td width="5%">&nbsp;</td>
+  </tr>
+</table>
+
+
+                    </div>
+                    
+             </div>	
+           
+           </div>
+             
+                  
+        </div>
+           
+       
+        </div><!--  Main Content Stop Here  -->
+        
+    
+</div><!--  Wrapper Stop Here  -->
+
+                  <div class="clear"></div>
+
+<div id="footer"><!--  Footer Start Here  --></div><!--  Footer Stop Here  -->
+</body>
+</html>

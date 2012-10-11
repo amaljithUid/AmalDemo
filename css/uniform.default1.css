@@ -119,7 +119,7 @@ div.selector {
 }
 
 div.selector select {
-  min-width: 161px;
+  /*min-width: 161px;*/
   font-family:Arial, Helvetica, sans-serif;
   font-size: 12px;
  
@@ -212,3 +212,70 @@ div.selector select option {
 	width:73px;
 	background:url(../images/sele.gif) no-repeat;
 	}
+	
+	
+#uniform-time
+	{
+	width:110px;
+	background:url(../images/time.gif) no-repeat;
+	}
+#uniform-time span
+	{
+	width:110px;
+	background:url(../images/time.gif) no-repeat;
+	}
+	
+
+	
+#uniform-address
+	{
+	width:254px;
+	background:url(../images/address.png) no-repeat;
+	margin:0px !important;
+	}
+#uniform-address span
+	{
+	width:254px;
+	background:url(../images/address.png) no-repeat;
+	}
+	
+	
+	
+	
+#uniform-address-1
+	{
+	width:254px  !important;
+	background:url(../images/address.png) no-repeat;
+	margin:0px !important;
+	}
+	
+#uniform-address-1 span
+	{
+	width:254px  !important;
+	background:url(../images/address.png) no-repeat;
+	}
+	
+select{width:100% !important}
+	
+#uniform-address-3{
+	width:138px;
+	background:url(../images/address-option.png) no-repeat;
+	margin:3px 0 0 1px;
+	line-height:30px;
+}
+#uniform-address-3 span{
+	width:130px;
+	background:url(../images/address-option.png) no-repeat;
+	border-left:none !important;
+}
+#uniform-address-4{
+	width:138px;
+	background:url(../images/address-option.png) no-repeat;
+	margin:3px 0 0 1px;
+	line-height:30px;
+}
+#uniform-address-4 span{
+	width:130px;
+	background:url(../images/address-option.png) no-repeat;
+	border-left:none !important;
+}
