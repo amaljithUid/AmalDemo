@@ -1,17 +1,9 @@
-<script src="js/jquery.latest.js" type="text/javascript"></script>
-<style type="text/css">
-
-
-</style>
-
-
-
 <div id="logo"><!--  Logo Starts Here  -->
 <img src="images/akil_baity_logo.jpg" width="262" height="89" alt="akil baity logo" />
 </div><!--  Logo Stop Here  -->
 
 <div id="topMenu"><!--  Top Menu Starts Here  -->
-    <div><a href="#" id="Login-Btn" class="topMenu">LOGIN</a></div>
+    <div><a href="#" class="topMenu">LOGIN</a></div>
     <div><a href="#" class="topMenu">REGISTER</a></div>
     <div id="foodTray"><span><a href="#">0</a></span>
     </div>
@@ -28,64 +20,3 @@
     <li><a href="#">Contact Us</a></li>
     </ul>
 </div><!--  Main Menu Stop Here  -->
-
-
-<script>
-
-//ARRAY OF POPUPS
-$(document).ready(function() {
-   $("#LoginPopupBg").data("state",0);
-   $("#Login-Btn").click(function(){  
-		centerPopup();
-		loadPopup();   
-   });
-   $("#LoginPopupClose").click(function(){
-	   	disablePopup();
-   });
-   $(document).keypress(function(e){
-		if(e.keyCode==27) {
-			disablePopup();	
-		}
-	});
-});
-
-$(window).resize(function() {
-centerPopup();
-});
-
-function loadPopup(){
-	//loads popup only if it is disabled
-	if($("#LoginPopupBg").data("state")==0){
-		$("#LoginPopupBg").css({
-			"opacity": "0.7"
-		});
-		$("#LoginPopupBg").fadeIn("medium");
-		$("#LoginPopupContent").fadeIn("medium");
-		$("#LoginPopupBg").data("state",1);
-	}
-}
-function disablePopup(){
-	if ($("#LoginPopupBg").data("state")==1){
-		$("#LoginPopupBg").fadeOut("medium");
-		$("#LoginPopupContent").fadeOut("medium");
-		$("#LoginPopupBg").data("state",0);
-	}
-}
-function centerPopup(){
-	var winw = $(window).width();
-	var winh = $(window).height();
-	var popw = $('#LoginPopupContent').width();
-	var poph = $('#LoginPopupContent').height();
-	$("#LoginPopupContent").css({
-		"position" : "absolute",
-		"top" : winh/2-poph/2,
-		"left" : winw/2-popw/2
-	});
-	//IE6
-	$("#LoginPopupBg").css({
-		"height": winh	
-	});
-}
-
-
-</script>
