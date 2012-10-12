@@ -79,9 +79,9 @@ h6
 	font-weight:normal;
 	text-decoration:none;
 	line-height:0px;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	margin-top:10px;
-	width:272px;
+	/*width:272px;*/
 	}
 .clear
 	{
@@ -1347,6 +1347,7 @@ html[xmlns] .clearfix					{display:block;}
 .subtitle								{font-family:Arial, Helvetica, sans-serif;font-size:19px;color:#4e2a0e;text-transform:uppercase;margin:0px;line-height:inherit;clear:both}
 h3.subtitle,h3.subtitle-second			{margin-bottom:18px;}
 .subtitle-second						{font-family:Arial, Helvetica, sans-serif;font-size:19px;color:#9e9595;text-transform:uppercase;margin:0px;line-height:inherit;clear:both}
+h6.subtitleH6							{font-family:Arial, Helvetica, sans-serif;font-size:15px;color:#d01b1b;font-weight:bold;margin:0px;line-height:inherit;clear:both}
 .form-container							{width:698px;height:auto;margin:0px auto;clear:both;}
 .form-filed-content						{width:306px;height:30px;background:url(../images/form-filed-bg.png)  no-repeat left center;float:left;margin-bottom:20px;}
 .form-filed-content h5					{width:133px;height:16px;float:left;font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:14px;color:#e2893b;margin:0px;display:block;line-height:inherit;padding:7px 10px;text-transform:capitalize;}
@@ -1359,7 +1360,6 @@ h3.subtitle,h3.subtitle-second			{margin-bottom:18px;}
 .calender-bday							{background:url(../images/calender-icon.png) no-repeat right center;background-color:transparent;border:0;padding:0;width:116px;height:28px;margin:0 0 0 6px;padding:5px 0 0 5px;}
 .form-filed-content select				{width:150px}
 .form-filed-content h5.occ				{width:101px;}
-.subheadd{width:600px; height:auto; float:left; padding:90px 0 0 0; font:normal 26px/28px arial; color:#ffffff; text-transform:uppercase;}
 
 .address_box_Account					{width:698px; height:auto; float:left; border:1px solid #eceae2; background:#fbfbf9;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;margin-top:15px}
 .address-content						{margin-bottom:20px;clear:both;height:auto;padding:20px 10px;}
@@ -1388,31 +1388,62 @@ font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px;}
 
 .singleFieldBg							{width:255px !important; height:30px !important; float:left; background:url(../images/text-field.png) no-repeat; border:none; 
 font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px;}
-/*+++++ Rating End +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-
-/*+++++ Recipt +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-.recipt{width:100%; height:auto; float:left; }
-.orange{width:500px; float:left; font:normal 16px/18px arial; color:#e2893b;  height:20px}
-.balk{width:220px; float:left; height:20px; padding:0 0 0 20px}
-.balk span{font:normal 16px/16px arial; color:#585858;}
-.balk-1{width:130px; float:left; height:20px;  padding:0 0 0 40px}
-.balk-1 span{font:normal 16px/16px arial; color:#585858;}
-
-.orange-1{width:500px; height:20px float:left; margin-top:10px}
-.orange-in-2{width:100px; height:20px; float:left;font:normal 16px/16px arial; color:#585858;}
-.orange-in-3{width:400px; height:20px;float:left;font:normal 16px/16px arial; color:#585858;}
-
-.margin_tp{margin-top:20px !important;}
 
 select.singleFieldBg					{width:100%;background:url(../images/home_select_bg.png) no-repeat !important}
 .bgpos									{background-position:213px center !important}
 .form-filed-textarea					{width:100%;}
 .form-filed-textarea textarea			{width:88.5%;min-height:200px;-webkit-border-radius: 8px;border-radius: 8px;border:thin solid #CCC;padding:10px}
 .captch{}
-.captch td p{color:#373535;font-size:14px}
+.captch td p							{color:#373535;font-size:14px}
 .captch-bg								{width:173px;background:url(../images/captach-inpud-bg.png) no-repeat left top;height:30px;border:none;margin-left:11px;}
-.captcha-warning{color:#878380;font-size:14px}
-.captcha-warning span{color:#FF0000;font-size:13px}
+.captcha-warning						{color:#878380;font-size:14px}
+.captcha-warning span					{color:#FF0000;font-size:13px}
+.text-content							{width:100%;height:auto;}
+.text-content p							{color:#3c4349;font-size:14px;line-height:1.6em;text-align:left}
+.text-content p img						{float:right;margin:0px 0px 20px 20px}
+
+.tips-Content							{width:475px;float:left;margin-bottom:20px}
+.tips-Content table tr td{margin:0px ;padding:0px}
+.tips-Content h4{color:#7d634e;font-family:Arial, Helvetica, sans-serif;font-size:20px;float:inherit;margin:0px 0 20px 20px;padding:0px ;line-height:inherit;display:block;vertical-align:top;text-transform:uppercase;}
+.tips-Content p{color:#3c4349;font-family:Arial, Helvetica, sans-serif;font-size:14px;text-align:left;margin:0px 0 20px 20px;line-height:22px;display:block}
+.tips-Content a{color:#e02a2a;font-family:Arial, Helvetica, sans-serif;font-size:14px;text-align:left;font-weight:bold;height:25px;background:url(../images/read-more-arrow.png) no-repeat left center;padding-left:20px;margin:0 0 0 20px;text-decoration:none}
+
+.my-order{width:100%;-webkit-border-radius: 6px;border-radius: 6px;background:#f7f7f7;border:thin solid #eceae2}
+
+.my-order tr td{width:155px;height:32px;padding:0px 10px;border:none}
+.my-order tr.normal{height:32px;padding:5px 10px;background:#fbfbf9;border:none}
+.my-order tr.alternate{height:32px;padding:5px 10px;background:#ffffff;border:none}
+.my-order tr td h2{color:#726969;font-size:15px;font-family:Arial, Helvetica, sans-serif;text-transform:uppercase;margin:0px}
+.my-order tr td p{color:#726969;font-size:15px;font-family:Arial, Helvetica, sans-serif;margin:0px}
+.my-order tr td p span{color:#fea40f;font-size:15px;font-family:Arial, Helvetica, sans-serif;text-transform:uppercase;margin:0px}
+a.cancel-order{color:#fea40f;font-size:12px;font-family:Arial, Helvetica, sans-serif;font-weight:bold;text-transform:uppercase;background:url(../images/cancel-order-btn.png) no-repeat left center;padding-left:14px;text-decoration:none;margin:0px;clear:both}
+
+.my-order-details{width:100%;clear:both}
+a.back-to-order{color:#cb1717;font-size:12px;font-family:Arial, Helvetica, sans-serif;font-weight:bold;text-transform:uppercase;background:url(../images/to-left-arrow.png) no-repeat left center;padding-left:14px;text-decoration:none;margin:0px 0 10px;display:block}
+
+.my-order-details tr td h3{color:#9e9595;font-family:Arial, Helvetica, sans-serif; font-size:16px;text-transform:uppercase;}
+.my-order-details tr td h3 span{color:#797070;}
+
+.my-order-details tr td h5{color:#373535;font-family:Arial, Helvetica, sans-serif; font-size:16px;text-transform:capitalize;clear:both;margin:0px 0 5px;line-height:22px;}
+.my-order-details tr td h5 span{color:#797070;}
+.my-order-details tr td h6{color:#7d634e;font-family:Arial, Helvetica, sans-serif; font-size:16px;text-transform:uppercase;font-weight:bold}
+.my-order-details tr td h6 img{vertical-align:middle;margin-right:10px;clear:}
+.sub-cart-item{width:100%;-webkit-border-radius: 6px 6px 0px 0px;border-radius: 6px 6px 0px 0px;background:#f7f7f7;border:thin solid #eceae2;padding:20px 30px 10px;border-bottom:none}
+.sub-cart-item-bottom{width:100%;-webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;background:#ffffff;border:thin solid #eceae2;padding:10px 30px 20px;border-top:none}
+.sub-cart-item h5.headtitle{margin:0px; padding:0px;height:20px;line-height:inherit;color:#3c4349;font-family:Arial, Helvetica, sans-serif; font-size:15px;text-transform:capitalize}
+.sub-cart-item h5.txtcontent{margin:0px; padding:0px;height:20px;line-height:inherit;color:#3c4349;font-family:Arial, Helvetica, sans-serif; font-size:14px;text-transform:capitalize}
+
+.sub-cart-item tr{clear:both}
+.sub-cart-item tr td{line-height:22px;}
+.sub-cart-item h5.txtcontent span{color:#e32c2c;}
+
+.sub-cart-item h6.txtcontent{margin:0px; padding:0px;height:20px;line-height:inherit;color:#3c4349;font-family:Arial, Helvetica, sans-serif; font-size:14px;text-transform:uppercase}
+
+.sub-cart-item h5.txtcontent span.textcontent{color:#3c4349;}
+.sub-cart-item h5.txtcontent span.textcontent{color:#3c4349;}
+
+.total-cal tr td h2{color:#726969;font-family:Arial, Helvetica, sans-serif; font-size:15px;text-transform:uppercase;font-weight:bold;text-align:right;float:right;line-height:18px;margin:0px}
+.total-cal tr td h2 span{color:#e32c2c;}
+.total-cal tr td h2 span.textcontent{color:#3c4349;font-weight:normal}
 
 /*********************************AMAL ENDS HERE**********************************/

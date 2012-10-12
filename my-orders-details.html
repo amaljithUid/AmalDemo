@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Akil Baity Website</title>
+
+<!--  Layout Style Starts Here  -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+<style type="text/css">
+@import "css/jquery.datepick.css";
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.datepick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#popupDatepicker').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+	
+		
+		//Include script start here	
+		$('#Header').load('header.html')
+		$('#footer').load('footer.html')	
+		
+		
+});
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker1').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker2').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker3').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker4').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+$(function() {
+	$('#popupDatepicker5').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+
+</script>
+
+<script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("select").uniform();
+		$("#sele").uniform();
+      });	
+		
+    </script>
+    <link rel="stylesheet" href="css/uniform.default1.css" type="text/css" media="screen">
+    <style type="text/css" media="screen">
+      ul.uniform-select-box li{list-style:none;font-family:Arial, Helvetica, sans-serif; color:#373535; font-size:14px;}
+    </style> 
+
+
+</head>
+
+<body id="innerBody">
+	<div id="wrapper"><!--  Wrapper Starts Here  -->
+    
+		<div id="Header"><!--  Header Starts Here  --></div> <!--  Header Stop Here  -->   
+		
+        
+        <div id="mainContent"><!--  Main Content Starts Here  -->
+        	<div id="topLeft"></div>
+            <div id="topBg"><!--  Top Bg Starts Here  -->
+           		
+            </div><!--  Top Bg Stop Here  -->
+            <div id="topRight"></div>
+            
+            
+            <div id="leftContentArea" class="flt-rgt width-increase"><!--  Left Content Area Start Here  -->
+           	  <h3 class="subtitle">My Orders</h3>
+                
+                	<table border="0" class="my-order-details">
+                      <tr>
+                        <td colspan="2">
+                        	<a href="#" class="back-to-order">back to orders history</a>
+                            <a href="#" class="cancel-order">Cancel Order</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><h3>order number: <span>AB100100</span></h3></td>
+                        <td><h3 class="flt-rgt">Order Date: <span>31.08.12 </span></h3></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2"><h3>PaymenT METHOD:<span>CASH ON DELIVERY</span></h3></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2"><h3>Delivery Address:</h3></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <h5>Location:<span>Building</span></h5>
+                          <h5>Area: <span>Salmya</span></h5>
+                          <h5>Block:<span>4</span></h5>
+                          <h5>Avenue:<span>55</span></h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2"><h3>Food in your order</h3></td>
+                      </tr>
+                      
+                    </table>
+                    
+                    <table class="my-order-details" >
+                    	<tr>
+                        <td colspan="2"><h6><img src="images/home-cook-logo.png" width="61" height="62" />Home Cooking</h6></td>
+                      </tr>
+                    </table>
+                    
+                    <table border="0" class="full-width sub-cart-item">
+                      <tr>
+                        <td rowspan="3" align="left" valign="top" width="61"><img src="images/item-1.png" width="61" height="76" /></td>
+                        <td><h5 class="headtitle">Black & White Signature</h5></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table border="0" width="100%">
+                              <tr>
+                                <td><h6 class="txtcontent">QTY: 1</h6></td>
+                                <td><h5 class="txtcontent">Unit Price:<span> 3.500 KD</span></h5></td>
+                                <td><h5 class="txtcontent">Total:<span> 3.500 KD</span></h5></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"><h5 class="txtcontent">Special Requests:<span class="textcontent">Less frosting, more chocolate</span></h5></td>
+                                <td><h5 class="txtcontent">Delivery Method:<span class="textcontent">Delivery</span></h5></td>
+                              </tr>
+                        </table>
+                        
+                        </td>
+                      </tr>
+                    </table>
+                    
+                    <table border="0" class="full-width sub-cart-item sub-cart-item-bottom">
+                      <tr>
+                        <td rowspan="3" align="left" valign="top" width="61"><img src="images/item-1.png" width="61" height="76" /></td>
+                        <td><h5 class="headtitle">Black & White Signature</h5></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table border="0" width="100%">
+                              <tr>
+                                <td><h6 class="txtcontent">QTY: 1</h6></td>
+                                <td><h5 class="txtcontent">Unit Price:<span> 3.500 KD</span></h5></td>
+                                <td><h5 class="txtcontent">Total:<span> 3.500 KD</span></h5></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"><h5 class="txtcontent">Special Requests:<span class="textcontent">Less frosting, more chocolate</span></h5></td>
+                                <td><h5 class="txtcontent">Delivery Method:<span class="textcontent">Delivery</span></h5></td>
+                              </tr>
+                        </table>
+                        </td>
+                      </tr>
+                    </table>
+                    
+                    <table border="0" width="100%" class="total-cal">
+                          <tr>
+                            <td align="right"><h2>Subtotal: <span>7.00 KD</span></h2></td>
+                          </tr>
+                    </table>
+
+					<div class="clear"></div>
+                        <div class="yellow-bottom_border"></div>
+                    <div class="clear"></div>
+                    
+                    <table class="my-order-details" >
+                    	<tr>
+                        <td colspan="2"><h6><img src="images/home-cook-logo.png" width="61" height="62" />Home Cooking</h6></td>
+                      </tr>
+                    </table>
+                    
+                    <table border="0" class="full-width sub-cart-item">
+                      <tr>
+                        <td rowspan="3" align="left" valign="top" width="61"><img src="images/item-1.png" width="61" height="76" /></td>
+                        <td><h5 class="headtitle">Black & White Signature</h5></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table border="0" width="100%">
+                              <tr>
+                                <td><h6 class="txtcontent">QTY: 1</h6></td>
+                                <td><h5 class="txtcontent">Unit Price:<span> 3.500 KD</span></h5></td>
+                                <td><h5 class="txtcontent">Total:<span> 3.500 KD</span></h5></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"><h5 class="txtcontent">Special Requests:<span class="textcontent">Less frosting, more chocolate</span></h5></td>
+                                <td><h5 class="txtcontent">Delivery Method:<span class="textcontent">Delivery</span></h5></td>
+                              </tr>
+                        </table>
+                        
+                        </td>
+                      </tr>
+                    </table>
+                    
+                    <table border="0" class="full-width sub-cart-item sub-cart-item-bottom">
+                      <tr>
+                        <td rowspan="3" align="left" valign="top" width="61"><img src="images/item-1.png" width="61" height="76" /></td>
+                        <td><h5 class="headtitle">Black & White Signature</h5></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table border="0" width="100%">
+                              <tr>
+                                <td><h6 class="txtcontent">QTY: 1</h6></td>
+                                <td><h5 class="txtcontent">Unit Price:<span> 3.500 KD</span></h5></td>
+                                <td><h5 class="txtcontent">Total:<span> 3.500 KD</span></h5></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"><h5 class="txtcontent">Special Requests:<span class="textcontent">Less frosting, more chocolate</span></h5></td>
+                                <td><h5 class="txtcontent">Delivery Method:<span class="textcontent">Delivery</span></h5></td>
+                              </tr>
+                        </table>
+                        </td>
+                      </tr>
+                    </table>
+                    
+                    <table border="0" width="100%" class="total-cal">
+                          <tr>
+                            <td align="right"><h2>Subtotal: <span>7.00 KD</span></h2></td>
+                          </tr>
+                    </table>
+
+					<div class="clear"></div>
+                        <div class="yellow-bottom_border"></div>
+                    <div class="clear"></div>
+                    
+                    <table border="0" width="100%" class="total-cal">
+                          <tr>
+                            <td align="right"><h2>Subtotal: <span class="textcontent">5.00 KD</span></h2></td>
+                          </tr>
+                          <tr>
+                            <td align="right"><h2>Subtotal: <span>7.00 KD</span></h2></td>
+                          </tr>
+                    </table>
+
+           		
+            </div><!--  Left Content Area Stop Here  -->
+            
+            <div id="rightContentArea" class="flt-lft width-decrease"><!--  Right Content Area Start Here  -->
+            	<div class="side-panel-menu">
+                	<h3>In this Section</h3>
+                    <ul>
+                    	<li><a href="#">Account Information</a></li>
+                        <li><a href="#">My orders</a></li>
+                    </ul>
+                </div>
+            </div><!-- Right Content Area Stop Here  -->
+                  
+           </div>
+           
+       
+        </div><!--  Main Content Stop Here  -->
+        
+    
+</div><!--  Wrapper Stop Here  -->
+
+                  <div class="clear"></div>
+
+<div id="footer"><!--  Footer Start Here  --></div><!--  Footer Stop Here  -->
+</body>
+</html>
