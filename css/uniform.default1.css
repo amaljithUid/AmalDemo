@@ -25,7 +25,7 @@ div.button,
 div.button span {
   background-image:url(../images/inner_select_bg.png);
   background-repeat: no-repeat;
-  /*width:161px;*/ height:30px;
+  width:161px; height:30px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -114,7 +114,7 @@ div.selector.disabled span {
 
 /* Select */
 div.selector {
-  /*width: 161px;*/
+  width: 161px;
   font-size: 12px;
 }
 
@@ -213,18 +213,69 @@ div.selector select option {
 	background:url(../images/sele.gif) no-repeat;
 	}
 	
-#uniform-option2{
-	width:254px;
-	background:url(../images/home_select_bg.png) no-repeat;
+	
+#uniform-time
+	{
+	width:110px;
+	background:url(../images/time.gif) no-repeat;
+	}
+#uniform-time span
+	{
+	width:110px;
+	background:url(../images/time.gif) no-repeat;
 	}
 	
-#uniform-option2 span{
-	width:254px;
-	background:url(../images/occ-drop-bg.png) no-repeat;
-	margin:0px !important;
-	
-	} 
-	
-#uniform-option2{margin-left:0px}	
 
-select{width:100% !important;} 
+	
+#uniform-address
+	{
+	width:254px;
+	background:url(../images/address.png) no-repeat;
+	margin:0px !important;
+	}
+#uniform-address span
+	{
+	width:254px;
+	background:url(../images/address.png) no-repeat;
+	}
+	
+	
+	
+	
+#uniform-address-1
+	{
+	width:254px  !important;
+	background:url(../images/address.png) no-repeat;
+	margin:0px !important;
+	}
+	
+#uniform-address-1 span
+	{
+	width:254px  !important;
+	background:url(../images/address.png) no-repeat;
+	}
+	
+select{width:100% !important}
+	
+#uniform-address-3{
+	width:138px;
+	background:url(../images/address-option.png) no-repeat;
+	margin:3px 0 0 1px;
+	line-height:30px;
+}
+#uniform-address-3 span{
+	width:130px;
+	background:url(../images/address-option.png) no-repeat;
+	border-left:none !important;
+}
+#uniform-address-4{
+	width:138px;
+	background:url(../images/address-option.png) no-repeat;
+	margin:3px 0 0 1px;
+	line-height:30px;
+}
+#uniform-address-4 span{
+	width:130px;
+	background:url(../images/address-option.png) no-repeat;
+	border-left:none !important;
+}
