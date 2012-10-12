@@ -79,9 +79,9 @@ h6
 	font-weight:normal;
 	text-decoration:none;
 	line-height:0px;
-	/*text-transform:uppercase;*/
+	text-transform:uppercase;
 	margin-top:10px;
-	/*width:272px;*/
+	width:272px;
 	}
 .clear
 	{
@@ -1300,6 +1300,19 @@ body
 			
 .right-box{width:100%; height:auto; float:right; padding:0 0 0 20px;}
 
+.recipt{width:100%; height:auto; float:left; }
+.orange{width:500px; float:left; font:normal 16px/18px arial; color:#e2893b;  height:20px}
+.balk{width:220px; float:left; height:20px; padding:0 0 0 20px}
+.balk span{font:normal 16px/16px arial; color:#585858;}
+.balk-1{width:130px; float:left; height:20px;  padding:0 0 0 40px}
+.balk-1 span{font:normal 16px/16px arial; color:#585858;}
+
+.orange-1{width:500px; height:20px float:left; margin-top:10px}
+.orange-in-2{width:100px; height:20px; float:left;font:normal 16px/16px arial; color:#585858;}
+.orange-in-3{width:400px; height:20px;float:left;font:normal 16px/16px arial; color:#585858;}
+
+.margin_tp{margin-top:20px !important;}
+
 
 
 /*********************************AMAL START HERE**********************************/
@@ -1447,3 +1460,5 @@ a.back-to-order{color:#cb1717;font-size:12px;font-family:Arial, Helvetica, sans-
 .total-cal tr td h2 span.textcontent{color:#3c4349;font-weight:normal}
 
 /*********************************AMAL ENDS HERE**********************************/
+
+
