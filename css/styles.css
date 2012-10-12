@@ -1,8 +1,3 @@
-@charset "utf-8";
-/* CSS Document */
-
-
-
 @font-face
 	{
 	font-family:'Comfortaa';
@@ -79,10 +74,11 @@ h6
 	font-weight:normal;
 	text-decoration:none;
 	line-height:0px;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	margin-top:10px;
-	width:272px;
+	/*width:272px;*/
 	}
+
 .clear
 	{
 	clear:both;
@@ -197,7 +193,7 @@ body
 	}
 #mainMenu ul
 	{
-	font-family:'Comfortaa';
+	font-family:Comfortaa;
 	font-size:17px;
 	text-decoration:none;
 	font-weight:normal;
@@ -205,7 +201,7 @@ body
 	}
 #mainMenu ul li
 	{
-	font-family:'Comfortaa';
+	font-family:Comfortaa;
 	font-size:17px;
 	text-decoration:none;
 	font-weight:normal;
@@ -256,7 +252,7 @@ body
 	{
 	width:230px;
 	height:auto;
-	overflow:auto;
+
 	margin:0 auto;
 	padding:18px 0 0 0;
 	}
@@ -264,7 +260,7 @@ body
 	{
 	width:230px;
 	float:left;
-	overflow:auto;
+	
 	}
 .select
 	{
@@ -292,13 +288,12 @@ body
 	
 .calender
 	{
-	background-image:url(../images/calender.gif);
-	background-color:transparent;
+		background:url(../images/cal.gif) no-repeat;
 	border:0;
 	padding:0;
-	width:116px;
+	width:136px;
 	height:28px;
-	margin:0 0 0 6px;
+	margin:0 0 0 8px;
 	padding:5px 0 0 5px;
 	}
 	
@@ -425,7 +420,7 @@ body
 	float:right;
 	width:613px;
 	height:auto;
-	overflow:auto;
+	
 	position:relative;
 	margin-top:-40px;
 	}
@@ -434,7 +429,7 @@ body
 	float:left;
 	width:272px;
 	height:138px;
-	overflow:auto;
+	
 	position:relative;
 	margin-top:35px;
 	margin-left:60px;
@@ -444,7 +439,7 @@ body
 	float:right;
 	width:272px;
 	height:138px;
-	overflow:auto;
+	
 	position:relative;
 	margin-top:35px;
 	}
@@ -469,7 +464,7 @@ body
 	width:272px;
 	height:auto;
 	float:left;
-	overflow:auto;
+	
 	padding:0 68px 0 0;
 	}
 .footerContent
@@ -780,7 +775,7 @@ body
 	width:640px;
 	height:auto;
 	float:left;
-	/*overflow:auto; hide if not nessesary*/
+	
 	margin-top:60px;
 	}
 #rightContentArea
@@ -788,7 +783,7 @@ body
 	width:272px;
 	float:right;
 	height:auto;
-	/*overflow:auto; hide if not nessesary*/
+	
 	margin-top:60px;
 	}
 #homeCookingHeading
@@ -838,7 +833,7 @@ body
 	width:100%;
 	float:left;
 	border-bottom:4px #f3bd0f dotted;
-	font-family:'Comfortaa';
+	font-family:Comfortaa;
 	font-size:28px;
 	color:#4e2a0e;
 	height:50px;
@@ -852,6 +847,16 @@ body
 	float:left;
 	margin-top:20px;
 	}
+	
+	
+#mainHeading
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#7d634e;
+	}
+	
+	
 #menuListTop
 	{
 	background-image:url(../images/menu_list_top.jpg);
@@ -880,7 +885,7 @@ body
 	background-color:#fbfbf9;
 	width:598px;
 	height:auto;
-	overflow:auto;
+	
 	float:left;
 	margin-left:1px;
 	padding:20px;
@@ -890,7 +895,7 @@ body
 	background-color:#fff;
 	width:598px;
 	height:auto;
-	overflow:auto;
+	
 	float:left;
 	margin-left:1px;
 	padding:20px;
@@ -950,7 +955,7 @@ body
 	width:153px;
 	height:28px;
 	float:right;
-	margin-top:15px;
+	margin-top:22px;
 	}
 .addTrayButton:hover
 	{
@@ -973,7 +978,7 @@ body
 	background-color:#fea618;
 	width:267px;
 	height:270px;
-	overflow:auto;
+	
 	float:left;
 	padding:15px 0 0 5px;
 	}
@@ -1026,7 +1031,7 @@ body
 	{
 	width:261px;
 	height:auto;
-	overflow:auto;
+	
 	float:left;
 	background-color:#f7f7f7;
 	margin-left:5px;
@@ -1047,7 +1052,6 @@ body
 .adImages
 	{
 	width:272px;
-	overflow:auto;
 	float:left;
 	margin:40px 0 0 0;
 	}
@@ -1055,7 +1059,7 @@ body
 	{
 	width:272px;
 	height:500px;
-	overflow:auto;
+	
 	float:left;
 	}
 .searchResultContent
@@ -1133,7 +1137,7 @@ body
 	{
 	width:638px;
 	height:auto;
-	overflow:auto;
+	
 	float:left;
 	margin-top:20px;
 	}
@@ -1150,7 +1154,7 @@ body
 	background-color:#f5f5f5;
 	width:477px;
 	height:auto;
-	overflow:auto;
+	
 	float:right;
 	padding:10px;
 	}
@@ -1298,8 +1302,85 @@ body
 .left-box{width:200px; height:auto; float:left; border:1px solid #eceae2; background:#f5f5f5;
 	  		-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding:20px}
 			
-.right-box{width:100%; height:auto; float:right; padding:0 0 0 20px;}
+			
+.left-box h1{ font:normal 19px/19px arial; color:#4e2a0e; text-transform:uppercase;}
+.left-box p{ font:normal 16px/28px arial; color:#5b5b4f; margin-top:-0px;}
+.left-box p strong{ font:bold 16px/22px arial; color:#5b5b4f; }
+.left-box p span{ font:bold 16px/22px arial; color:#c61313; }
+			
+			
+			
+.right-box{width:690px; height:auto; float:right; padding:0 0 0 20px;}
+.padin{padding:0px !important;}
 
+.right-box h1{font:normal 22px/22px arial; color:#7d634e; text-transform:uppercase; margin-top:0px;} 
+.right-box h2{font:normal 16px/22px arial; color:#9e9595; text-transform:uppercase;  margin-top:0px; width:600px;} 
+.right-box p{font:bold 15px/22px arial; color:#d01b1b; margin-top:0px;} 
+.fields{font:bold 14px/22px arial; color:#3c4349; float:left;}
+.fields strong{color:#d01b1b;}
+
+.form-1-name{width:100%; height:auto; float:left; padding-top:20px}
+.form-1-name table{width:100%; height:auto; float:left;}
+.form-1-name td{padding:4px 0 8px 0}
+.form-1-name td strong{color:#d01b1b; font-size:24px;}
+
+.txt-filed{width:255px; height:30px; float:left; background:url(../images/text-field.png) no-repeat; border:none; 
+		font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px;}
+
+.txt-area{width:640px; height:132px; font:normal 14px/30px arial; color:#373535; padding:0 0 0 6px; border:1px solid #d5d5d5;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;}
+	
+.edit-acc1{width:306px; height:30px; background:url(../images/edit_address.png) no-repeat;}
+.lft-address{ width:155px; float:left; padding:0 0 0 6px; height:30px; font:bold 14px/30px arial; color:#e2893b; }
+.right-address{width:143px; height:30px; float:left;}
+.txt-filed-address{width:130px; float:left; font:normal 14px/30px arial; color:#797070; border:none !important;
+	height:24px; margin:2px 0 0 10px;}
+	
+.txt_area_address{width:640px; height:132px; float:left; border:1px solid #d5d5d5; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	}
+	
+.txt_area_address h2{width:635px; height:30px; float:left; border-bottom:1px solid #d5d5d5; 
+					font:bold 14px/30px arial; color:#e2893b; padding:0 0 0 5px; text-transform:none !important}
+					
+.txt-address{float:left; border:none; width:636px; height:90px; margin-top:-10px; padding:0 0 0 4px;
+			 font:normal 14px/18px arial; color:#797070; }
+
+
+	
+.side-panel-menu{width:218px;height:182px;background:url(../images/in-the-section-bg.png) no-repeat center center; float:left;}
+.side-panel-menu h3{margin:28px 0 30px 17px;color:#4e2a0e;font-family:Arial, Helvetica, sans-serif;font-size:19px;text-transform:uppercase;line-height:inherit;}
+.side-panel-menu ul{margin:0px 0 0 7px;padding:0px;clear:both;}
+.side-panel-menu ul li{list-style:none;background:url(../images/side-menu-arrow.png) no-repeat 10px 3px;margin:0px;padding:0px;height:55px;padding-left:30px}
+.side-panel-menu ul li a{color:#5b5b4f;font-family:Arial, Helvetica, sans-serif;font-size:16px;text-decoration:none}
+
+
+
+
+
+.subheadd{width:600px; height:auto; float:left; padding:90px 0 0 0; font:normal 26px/28px arial; color:#ffffff; text-transform:uppercase;}
+
+
+/*+++++ Rating +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.rating_1{width:289px; height:127px; float:left; background:#fbfbf9; border:1px solid #eceae2;
+    -webkit-border-radius: 10px;   -moz-border-radius: 10px;   border-radius: 10px; margin:0 40px 40px 0}	
+.mrgin-0{margin-right:0px !important}	
+.img_rating{width:65px; height:78px; float:left; margin:20px 0 0 20px; }
+.img_rating img{border:4px solid #e2893b; -webkit-border-radius: 10px;   -moz-border-radius: 10px;   border-radius: 10px;}
+.rate_des{width:178px; height:auto; float:left; padding:43px 0 0 21px;}
+.rate_title{font:normal 15px/18px arial; color:#3c4349; float:left; padding-bottom:6px;}
+.rate_title_star{font:normal 15px/18px arial; color:#3c4349; float:left;}
+
+/*+++++ Rating End +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*+++++ Recipt +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 .recipt{width:100%; height:auto; float:left; }
 .orange{width:500px; float:left; font:normal 16px/18px arial; color:#e2893b;  height:20px}
 .balk{width:220px; float:left; height:20px; padding:0 0 0 20px}
@@ -1312,7 +1393,6 @@ body
 .orange-in-3{width:400px; height:20px;float:left;font:normal 16px/16px arial; color:#585858;}
 
 .margin_tp{margin-top:20px !important;}
-
 
 
 /*********************************AMAL START HERE**********************************/
@@ -1460,5 +1540,3 @@ a.back-to-order{color:#cb1717;font-size:12px;font-family:Arial, Helvetica, sans-
 .total-cal tr td h2 span.textcontent{color:#3c4349;font-weight:normal}
 
 /*********************************AMAL ENDS HERE**********************************/
-
-
